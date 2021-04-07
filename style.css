@@ -1,7 +1,7 @@
-body
-{
-	background: lightblue;
-}
+body {
+    padding-bottom: 873px;
+    background-image: linear-gradient(27deg, #4361ee, #4895ef, #4cc9f0, #4895ef, #4361ee) !important;
+} 
 .loginDiv
 {
 	background: white;
@@ -11,25 +11,12 @@ body
 	float: none;
 	border-radius: 15px;
 }
-#player01, #player02
-{
-	display: block;
-	margin-left: 10px;
-}
-#word
-{
-	width: 60%;
-}
-#word_display
-{
-	letter-spacing: 5px;
-}
-#output
-{
-	background: #ffffff;
-	border-radius: 10px;
-	border-top: 10px solid #f0f0f0;
-	padding: 10px;
-	float: none;
-	text-align: left;
+button {
+    background-image: linear-gradient(26deg, #f72585, #b5179e, #7209b7) !important;
+    color: white;
+    border: none;
+    padding: 7px;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
 }
